@@ -1,0 +1,255 @@
+/* BODY */
+body{
+  font-family: "Montserrat";
+  background-color: white;
+  text-align: center;
+}
+
+/* TITLE */
+#title{
+  background-color: #ff4c68;
+padding-bottom: 5%;
+position:relative;
+z-index: 1;
+
+
+}
+/* CONTAINER-FLUID */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+/* CONTAINER-FLUID INSIDE TITLE ID */
+#title .container-fluid{
+  padding: 1% 15% 7%;
+  margin-left: -3%;
+}
+/* H1---DOGS NEARBY */
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.5rem;
+  color: white;
+  line-height: 1.5;
+}
+
+/* h2 used for testimonials */
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  /* line-height: 1.5rem; */
+text-emphasis-style:open;
+
+}
+/* paragraph class used in features */
+.hello{
+  color: #8f8f8f;
+}
+.hello:hover{
+  color:#ff4c68;
+}
+
+.download-button:hover {
+      background-color:#F29589;
+      transition: 0.7s;
+  }
+
+  /* dog i phone image */
+.dog{
+  /* margin-top: 5%; */
+  transform: rotate(25deg);
+  margin-bottom:10%;
+  margin-left: -10%;
+position: absolute;
+}
+
+.nav-item{
+  margin: 0% 2% 0%;
+padding: 8% 5% 0%;
+
+}
+
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+
+}
+
+/* brand */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-right:50%;
+  padding-top: 5%;
+  text-align: left;
+
+}
+
+/* NAVIGATION LINKS */
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* DOWNLOAD BUTTON */
+.download-button{
+  margin: 5% 3% 5% 0;
+  /* margin-left: 7.5%; */
+}
+/* FEATURES ID */
+#features{
+background-color: white;
+position: relative;
+}
+
+/* features list texts */
+.feature-box{
+  text-align:center;
+  padding: 5%;
+}
+/* USED IN FEATURES ID (THREE FEATURES CHECK MARK , HEART ETC) */
+.fa-solid{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-solid:hover{
+  color:#ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* testtimonials */
+#press{
+background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+}
+
+/* images of testimonials-- company */
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+/* TESTIMONIALS IMAGE CLASS */
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+/* next and previouS slides */
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing{
+  background-color:#ef8172;
+  margin-top: 2%;
+  padding: 100px;
+}
+
+/* paragraph class in pricing section */
+.para{
+  color: #ef8172;
+}
+
+/* button in card body over hover */
+.w-100:hover{
+  color:#ef8172;
+}
+
+/* PRICING CARD */
+.card-body{
+  background-color: #ef8172;
+}
+
+/* CARD ON HOVERING */
+.card-header:hover{
+  background-color: #F7BEB7;
+}
+
+/* CARD BODY LISTINGS */
+p{
+  color: white;
+}
+
+/*  HTML LINE 141 - CLASS FOR H1 IN Pricing */
+.needs{
+  color: #ff4c68;
+}
+
+h4{
+  color: #ef8172;
+}
+
+/* PRICING FOR THREE TYPES OF CARDS USED */
+.chihu{
+  color: white;
+}
+.Labrador{
+  color: white;
+}
+.Mistchiff{
+  color: white;
+}
+
+/* CARD PRICING DOLLARS */
+.month{
+  color:#E7442D;
+
+  /* CATEGORIES OF CARDS */
+}
+
+.fw-normal{
+  color:#E7442D;
+}
+
+/* SECTION ID CTA */
+#cta{
+  background-color: #ff4c68;
+  margin-top: 5%;
+}
+
+/* CTA H3 CLASS */
+.truelove{
+  padding-top: 5%;
+  color: white;
+}
+
+/*  FOR MEDIA COMPONENTS */
+@media (max-width: 990px){
+  .nav-item{
+    text-align: right;
+  }
+  #title{
+    text-align: center;
+
+  }
+  .dog
+  {
+    margin-left: 15%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* footer */
+#footer{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+#footer .container-fluid{
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+/* FOOTER PARA CLASS */
+.Copyright{
+  color: #8f8f8f;
+}
